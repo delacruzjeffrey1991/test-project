@@ -1,0 +1,102 @@
+.inpuField {
+  width: 100%;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  height: 45px;
+}
+.white {
+  background-color: #fff;
+}
+.gray {
+  color: #929292;
+}
+.black {
+  color: #000;
+}
+.offWhite {
+  background-color: #d2d4d652;
+}
+
+// Form CSS
+
+div {
+  div {
+    div {
+      .formFloating {
+        border: 0;
+        outline: none !important;
+      }
+      .formFloating {
+        > input {
+          border: 0;
+          border-bottom: 1px solid #ccc;
+          border-radius: 0;
+          padding: 0;
+          font-family: "Grpahik Regular";
+          font-size: 14px;
+          outline: none !important;
+        }
+        > label {
+          color: #2494ae;
+          font-size: 16px;
+          font-family: "Grpahik Medium";
+          padding-left: 0;
+        }
+        > .formControl {
+          &:focus {
+            outline: none;
+            box-shadow: none;
+            ~ {
+              label {
+                opacity: 1;
+              }
+            }
+          }
+          &:not(:placeholder-shown) {
+            outline: none;
+            box-shadow: none;
+            ~ {
+              label {
+                opacity: 1;
+              }
+            }
+          }
+        }
+        > .formSelect {
+          padding: 15px 0;
+          box-shadow: none;
+          height: 60px;
+          line-height: 85px;
+          color: #000;
+          font-weight: 600;
+          font-family: "Grpahik Medium";
+          ~ {
+            label {
+              transform: scale(0.85) translateY(8px) translateX(0.15rem);
+              font-family: "Grpahik Medium";
+              opacity: 1;
+              font-weight: 600;
+              font-size: 18px;
+              outline: none !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.formFloating > .formControl,
+.formFloating > .formSelect {
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  padding: 0;
+  line-height: 30px;
+}
+
+option {
+  font-size: 16px;
+  line-height: 24px;
+}

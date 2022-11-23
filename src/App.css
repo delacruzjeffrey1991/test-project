@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Grpahik Medium';
+  src: url('./assets/fonts/Graphik/GraphikMedium.otf');
+}
+@font-face {
+  font-family: 'Grpahik Regular';
+  src: url('./assets/fonts/Graphik/GraphikRegular.otf');
+}
+@font-face {
+  font-family: 'Grpahik Semibold';
+  src: url('./assets/fonts/Graphik/GraphikSemibold.otf');
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#root {
+  max-width: 100%;
+  width: 100%;
+}
+body{
+  font-family: 'Grpahik Medium';
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #2394ae !important;
+}
+.rewardsTabsqa.nav-tabs .nav-item .nav-link{
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  font-family: 'Grpahik Semibold';
+}
+.rewardsTabsqa.nav-tabs .nav-item .nav-link.active{
+  border-bottom: 2px solid #bf161f;
+  color: #000;
+}
+p{
+  margin: 0;
+}
+
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.loader_spinner{
+  display: inline-block;
+  margin-left: 10px;
+  animation: spin infinite linear 1500ms;
+}

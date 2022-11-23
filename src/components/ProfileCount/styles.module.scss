@@ -1,0 +1,33 @@
+// :root {
+// 	--f-qa-15: 15px;
+// }
+.countDiv {
+	cursor: pointer;
+	.count {
+		font-size: 15px;
+		color: #fff;
+		width: 55px;
+		height: 55px;
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 50%;
+		background-color: #2394ae;
+	}
+	.primary {
+		background-color: #2394ae;
+	}
+	.secondary {
+		background-color: #cf212f;
+	}
+	.yellow {
+		background-color: #f5a41d;
+	}
+	.gray {
+		background-color: #929292;
+	}
+	.text {
+		font-size: 15px;
+		padding-left: 10px;
+	}
+}

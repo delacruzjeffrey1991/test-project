@@ -1,0 +1,45 @@
+h4.heading {
+  margin-bottom: 0px;
+  padding: 10px 0px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+h4.heading1 {
+  font-size: 40px;
+}
+h4.heading2 {
+  font-size: 30px;
+}
+h4.heading3 {
+  font-size: 25px;
+}
+h4.heading4 {
+  font-size: 20px;
+}
+h4.heading5 {
+  font-size: 15px;
+}
+.primaryText {
+  color: #000;
+}
+.secondaryText {
+  color: #191919;
+}
+.bottom {
+  padding-bottom: 10px;
+  border-bottom: 2px solid #e8eaee;
+}
+.top {
+  padding-top: 10px;
+  border-top: 2px solid #e8eaee;
+}
+.centered {
+  text-align: center;
+  .grayText {
+    color: #929292;
+  }
+  .bottom {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e8eaee;
+  }
+}

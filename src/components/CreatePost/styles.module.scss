@@ -1,0 +1,20 @@
+.userCreatePost{
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+.primary{
+    background-color: #2394ae;
+}
+.secondary{
+    background-color: #cf212f;
+}
+.createpostBtnsMain{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.createpostBtns{
+    display: flex;
+    gap: 20px;
+}

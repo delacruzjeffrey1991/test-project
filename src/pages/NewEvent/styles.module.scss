@@ -1,0 +1,46 @@
+.borderBottom{
+    border-bottom: 1px solid #929292;
+}
+.fieldWrapper{
+    border: 1px solid #929292;
+    padding: 0 20px;
+    border-radius: 10px;
+    margin: 0 0 30px;
+}
+.hostWrapper{
+    gap: 80px;
+}
+.flexChild{
+    >div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        input{
+            text-align: right;
+        }
+        label{
+            font-size: 14px;
+        }
+    }
+}
+.descpField{
+    min-height: 150px;
+}
+.btnContinue{
+    max-width: 260px;
+}
+.roomEventsCards{
+    .roomEventsFilter{
+        >div{
+            span{
+                left: unset;
+                right: 15px;
+            }
+        }
+        select{
+            font-size: 18px;
+            padding: 8px 40px 8px 30px;
+            border-radius: 10px;
+        }
+    }
+}

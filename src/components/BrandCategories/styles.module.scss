@@ -1,0 +1,39 @@
+.mainCategories{
+    gap: 20px;
+    li{
+        font-size: 28px;
+        font-family: "Grpahik Medium";
+        cursor: pointer;
+        color: #929292;
+        gap: 10px;
+    }
+    li.active{
+        color: #000;
+        .iconDown{
+            transform: rotate(90deg);
+        }
+    }
+    .iconDown{
+        font-size: 20px;
+        color: #2394ae;
+    }
+}
+.subCategories{
+    gap: 15px;
+    display: none;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    li{
+        font-family: "Grpahik Regular";
+        padding-right: 15px;
+        line-height: 1.1;
+        font-style: italic;
+    }
+    li:not(:last-child){
+        border-right: 2px solid #929292;
+    }
+}
+.subCategories.active{
+    display: flex;
+}

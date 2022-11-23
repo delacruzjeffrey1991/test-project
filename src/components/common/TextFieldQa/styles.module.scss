@@ -1,0 +1,66 @@
+.TextFieldQa {
+  margin: 20px 0;
+  position: relative;
+  label {
+    display: block;
+    font-size: 18px;
+    color: #191919;
+  }
+  input::placeholder {
+    color: #929292;
+    font-size: 14px;
+  }
+  input {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #000;
+    font-size: 16px;
+    padding: 5px 0;
+    font-family: "Graphik Regular";
+    color: #000;
+    outline: none;
+  }
+}
+.bordered {
+  margin: 10px 0;
+  .inpBox {
+    position: relative;
+    input {
+      padding: 10px 80px 10px 20px;
+      border: 1px solid #929292;
+      border-radius: 10px;
+      font-size: 18px;
+      max-width: 100%;
+    }
+    .actions {
+      position: absolute;
+      right: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #bf161f;
+      font-size: 14px;
+    }
+  }
+}
+.unbordered {
+  margin: 0;
+  .inpBox {
+    position: relative;
+    input {
+      padding: 10px 0;
+      border: none;
+      font-size: 16px;
+      max-width: 100%;
+    }
+  }
+}
+.errorMsgClr {
+  position: absolute;
+  bottom: -20px;
+  left: 5px;
+  font-size: 12px;
+  color: red;
+}

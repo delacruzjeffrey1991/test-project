@@ -1,0 +1,48 @@
+.flexDiv {
+  display: flex;
+  align-items: center;
+}
+.modules {
+  .pl_O {
+    > div {
+      padding-left: 0;
+      margin-left: 0;
+    }
+  }
+}
+.modules {
+  border-bottom: 2px solid #949494;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  .pl_O {
+    padding-left: 0;
+    margin-left: 0;
+    h4 {
+      font-size: 18px;
+      line-height: 24px;
+    }
+    h3 {
+      font-size: 22px;
+      line-height: 26px;
+      font-weight: 600;
+      font-family: "Grpahik Medium";
+    }
+  }
+  .separator {
+    padding-left: 20px;
+    border-left: 1px solid #d9d9d9;
+
+    p {
+      position: relative;
+      a {
+        color: #2494ae;
+        text-decoration: underline;
+        position: absolute;
+        right: 0;
+      }
+    }
+  }
+}
+
+.yellowTxt {
+}

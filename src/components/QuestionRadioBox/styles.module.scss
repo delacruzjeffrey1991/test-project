@@ -1,0 +1,43 @@
+.boxQuest{
+    max-width: 300px;
+    flex: 0 0 100%;
+    width: 100%;
+    background: #fff;
+    padding: 30px;
+    margin-right: 20px;
+    box-shadow: 0px 3px 6px #efefef;
+    border-radius: 11px;
+    .boxHeading{
+        text-align: center;
+        border-bottom: 1px solid #efefef;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+    }
+    .ansRadio{
+        p{
+            font-size: 15px;
+            font-family: "Grpahik Regular";
+            color: #000;
+            margin: 0;
+            text-align-last: left;
+        }
+        ul{
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            padding: 10px 0;
+        }
+        li{
+            display: inline-flex;
+            gap: 10px;
+            align-items: center;
+            label{
+                margin: 0;
+                font-size: 13px;
+                color: #929292;
+                padding: 0;
+                cursor: pointer;
+            }
+        }
+    }
+}
